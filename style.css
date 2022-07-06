@@ -4,6 +4,7 @@
 
 body{
     margin: 0;
+    font-family: 'Epilogue', sans-serif;
 }
 
 .attribution { font-size: 11px; text-align: center; }
@@ -14,7 +15,63 @@ body{
 }
 
 .container{
-    width: 80%;
+    width: 92%;
     max-width: 1200px;
     margin: 0 auto;
+}
+
+img{
+    max-width: 100%;
+}
+
+ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.nav .flexB{
+    justify-content: space-between;
+    padding: 1em 0;
+}
+
+
+.typography{
+    position: relative;
+    text-align: center;
+    min-height:16em;
+}
+
+
+
+.typography h1{
+    font-size: clamp(2.21rem, 9.5vw, 9.5rem);
+}
+
+.typography p{
+    color: hsl(0, 0%, 41%);
+    line-height: 1.5em;
+    margin-bottom: 2.5em;
+}
+
+.typography a{
+    background-color:hsl(0, 0%, 8%);
+    color:  hsl(0, 0%, 98%);
+    padding: 1em 1.5em;
+    border-radius: 1em;
+    
+}
+.footer__list{
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+.footer__list li > img{
+    width: 4rem;
 }
